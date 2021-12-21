@@ -1,0 +1,15 @@
+#lightgallery{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#lightgallery a {
+    width: 400px;
+    margin: 10px;
+    display: inline-block;
+}
+
+a img{
+    width: 100%;
+}
