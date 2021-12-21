@@ -51,7 +51,7 @@
 }
 
 .lg-actions .lg-next:before {
-  content: "\e095";
+  content: ">";
 }
 
 .lg-actions .lg-prev {
@@ -59,7 +59,7 @@
 }
 
 .lg-actions .lg-prev:after {
-  content: "\e094";
+  content: "<";
 }
 
 @-webkit-keyframes lg-right-end {
@@ -178,7 +178,7 @@
   position: absolute;
   top: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: transparent;
 }
 
 .lg-toolbar .lg-icon {
@@ -206,11 +206,12 @@
 }
 
 .lg-toolbar .lg-close:after {
-  content: "\e070";
+  content: "X";
 }
 
 .lg-toolbar .lg-download:after {
-  content: "\e0f2";
+  content: "//";
+
 }
 
 .lg-sub-html {

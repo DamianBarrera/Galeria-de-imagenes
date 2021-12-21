@@ -294,7 +294,7 @@
 
         iframeMaxWidth: '100%',
 
-        download: true,
+        download: false,
         counter: true,
         appendCounterTo: '.lg-toolbar',
 
@@ -585,9 +585,9 @@
             _lgUtils2.default.addClass(_this.outer, 'lg-visible');
         }, this.s.backdropDuration);
 
-        if (this.s.download) {
-            this.outer.querySelector('.lg-toolbar').insertAdjacentHTML('beforeend', '<a id="lg-download" aria-label="Download" target="_blank" download class="lg-download lg-icon"></a>');
-        }
+        // if (this.s.download) {
+        //     this.outer.querySelector('.lg-toolbar').insertAdjacentHTML('beforeend', '<a id="lg-download" aria-label="Download" target="_blank" download class="lg-download lg-icon"></a>');
+        // }
 
         // Store the current scroll top value to scroll back after closing the gallery..
         this.prevScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
